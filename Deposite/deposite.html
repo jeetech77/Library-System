@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Deposite</title>
+    <link rel="stylesheet" href="./deposite.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Book Deposite Form</h1>
+    </div>
+    <form class="Form_content ">
+        <div class="drop_tab">
+            <label for="dropdown">Class:</label>
+            <select name="dropdown" id="class" class="drop_box" required>
+                <option value="none">Choose Class</option>
+                <option value="B.sc.">B.sc.</option>
+                <option value="B.com.">B.com.</option>
+                <option value="B.A.">B.A.</option>
+                <option value="BCA">BCA</option>
+            </select>
+        </div>
+        <div class="drop_tab">
+            <label for="year">Year:</label>
+            <select name="year" id="year" class="drop_box" required>
+                <option value="none">Choose Year</option>
+                <option value="1st Year">1st Year</option>
+                <option value="2nd Year">2nd Year</option>
+                <option value="3rd Year">3rd Year</option>
+            </select>
+        </div>
+        <div class="inputtype">
+            <label for="Lazer Number"></label>
+            <input type="number" name="Lazer Number" placeholder="Lazer number here" required /></br>
+            <label for="Student Name"></label>
+            <input type="text" name="Student Name" placeholder="Your name here" required /></br>
+            <label for="Book Name"></label>
+            <input type="text" name="Book Name" placeholder="Book name here" required /></br>
+            <label for="Publication"></label>
+            <input type="text" name="Publication" placeholder="Publication name here" required /></br>
+        </div>
+        <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+        <div class="flex">
+            <a href="../index.html">Home</a>
+        </div>
+</body>
+
+</html>

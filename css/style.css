@@ -1,0 +1,76 @@
+@import "utility.css";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+body{
+    background-color: #191d22;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(/Library_System/images/three.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 100px 200px 200px 200px; */
+    /* background:fixed; */
+    /* background: linear-gradient(57deg,green,red,blue,aqua,yellow); */
+    overflow: hidden;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    /* margin-right: 10px; */
+}
+.btn_1st{
+    /* padding: 30px 30px 30px 3px; */
+    margin: 50px;
+    border: 2px solid green;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right:80px ;
+    
+}
+header nav a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color:green;
+    text-transform: uppercase;
+}
+header nav a:hover{
+    color:aqua;
+    transition: all .4s ease;
+    transition: all .4s ease;
+    text-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 200px #03e9f4;
+}
+header{
+    height: 150px;
+}
+.btn_1st:hover{
+    color: black;
+    background-color: aqua;
+    border-color: black;
+    transition: all .4s ease;
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 200px #03e9f4;
+}
+.welcome_text{
+    color: rgb(195, 0, 255);
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.para{
+    visibility: hidden;
+    color: #2c1616;
+    margin-bottom: 200px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 100px;
+}
+footer{
+    color: #f01111;
+    /* justify-content: center; */
+    text-align: center;
+    margin-bottom: 50px;
+}

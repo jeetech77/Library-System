@@ -1,0 +1,108 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#191d22;
+    background-image: url(/Library_System/images/J175P0.jpg);
+    transition: all .4s ease;
+
+}
+.Sign_In{
+    width: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #2c46468c;
+    text-align: center;
+    border: 0px;
+    border-radius: 50px;
+}
+.Sign_In h1{
+    color:  black;
+    font-weight: 600;
+    align-content: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.Sign_In h1:hover{
+    color: aqua;
+    transition: all .4s ease;
+    text-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 200px #03e9f4;
+
+}
+.container input{
+    background:none;
+    border: 0cm;
+    display: block;
+    outline: none;
+    border: 2px solid #fdd700;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin: 10px auto;
+    font-size: 15px;
+    outline: none;
+    align-content: center;
+    transition: all .4s ease;
+    width: 160px;
+    text-align: center;
+
+
+}
+.container input ::placeholder{
+    color: aqua;
+}
+.container input:focus{
+    font-weight: 500;
+    width: 80%;
+    transition: all .4s ease;
+    border-color: rgb(9, 207, 241);
+    background: black;
+    color: green;
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 200px #03e9f4;
+
+
+}
+.button{
+    background: none;
+    padding: 13px 35px;
+    border: 0;
+    outline: none;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 120px;
+    transition: all .4s ease;
+    margin-top: 20px;
+}
+.button:hover{
+    color: black;
+    background: aqua;
+    border-color: green;
+    width: 140px;
+    outline: none;
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 200px #03e9f4;
+
+}
+.Sign_up_option p{
+    display: inline-block;
+    margin-top: 50px;
+}
+.Sign_up_option a{
+    color: blue;
+    font-weight: 200;
+    /* transition: .4s ease; */
+    margin-top: 50px;
+    text-decoration: none;
+}
+.Sign_up_option a:hover{
+    transition: .4s linear;
+    color: #03e9f4;
+}
+::placeholder{
+    color: rgb(255, 0, 0);
+    opacity: 1;
+}

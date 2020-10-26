@@ -1,0 +1,51 @@
+*{
+    transition: all .4s ease;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: #191d22;
+    color: rgb(255, 0, 234);
+    flex-direction: column;
+    background-image: url(/Library_System/images/login.jpg);
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+a {
+    font-size: 20px;
+    margin-left: 45%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(184, 23, 23);    
+}
+.books a{
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(4, 28, 44);
+}
+a:hover{
+    color: aqua;
+}
+.home a{
+    color: red;
+    display: inline-block;
+    text-align: left;
+    /* background-color: #fff; */
+    margin-left: 10px;
+    /* margin-left: 100px; */
+}
+.home a:hover{
+    color:blue;
+}

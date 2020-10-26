@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    background: #191d22;
+    color: aqua;
+    background-image: url(/Library_System/images/login.jpg);
+
+}
+.Form_content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all .4s ease;
+}
+.drop_box{
+    padding: 2px;
+    font-size: 15px;
+    transition: all .4s ease;
+    color: green;
+    background: black;
+    border: 0px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    outline: none;
+}
+.drop_tab{
+    transition: all .4s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.inputtype{
+    text-align: center;
+}
+.inputtype input{
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: black;
+    color: green;
+    font-weight: 600;
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    border: 2px solid aqua;
+    width: 200px;
+    transition: all .4s ease ;
+}
+::placeholder{
+    color: rgb(255, 0, 0);
+    opacity: 1;
+}
+.inputtype input:focus{
+    border-color: green;
+    transition: all .4s ease;
+    width: 240px;
+    transition: .4s;
+}
+button{
+    color: green;
+    background: none;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-left: auto;
+    outline: none;
+    width: 100px;
+    transition: all .4s ease;
+    margin-top: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+button:hover{
+    color: black;
+    background: aqua;
+    transition: all .4s ease;
+    width:140px ;
+    
+}
+.flex a{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.flex a:hover{
+    color: aqua;
+    transition: .4s;
+}
