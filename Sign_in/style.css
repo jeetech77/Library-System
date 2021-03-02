@@ -3,7 +3,7 @@ body{
     padding: 0%;
     font-family: 'Times New Roman', Times, serif;
     background-color:#191d22;
-    background-image: url(/Library_System/images/J175P0.jpg);
+    background-image: url(../images/Admin.jpg);
     transition: all .4s ease;
 
 }

@@ -6,10 +6,12 @@
     -webkit-font-smoothing:antialiased;
 }
 body{
+    font-weight: bolder;
     background-color: #191d22;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(/Library_System/images/three.jpg);
     background-size: cover;
+    background-image: url(../images/Library-Solutions.jpg);
+    /* opacity: .5; */
     background-repeat: no-repeat;
     /* background-position: 100px 200px 200px 200px; */
     /* background:fixed; */
@@ -35,7 +37,7 @@ body{
 header nav a{
     text-decoration: none;
     margin-right: 2rem;
-    color:green;
+    color:rgb(0, 255, 0);
     text-transform: uppercase;
 }
 header nav a:hover{
@@ -55,7 +57,7 @@ header{
     box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 200px #03e9f4;
 }
 .welcome_text{
-    color: rgb(195, 0, 255);
+    color: rgb(255, 217, 0);
     align-content: center;
     justify-content: center;
     margin-bottom: 50px;
